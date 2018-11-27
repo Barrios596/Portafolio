@@ -1,0 +1,72 @@
+body {
+  background-color: #1D3557;
+  margin: 0;
+  padding: 0 0 100px 0;
+  font-family: sans-serif;
+  overflow-x: hidden; }
+
+h1 {
+  color: #F1FAEE;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+.App {
+  text-align: center;
+  position: relative; }
+
+.logo {
+  height: 130px;
+  width: auto; 
+}
+
+section {
+  padding: 20px 0;
+  max-width: 600px;
+  margin: 0 auto; }
+
+
+  .tarjeta {
+    border: 3px #A8DADC solid;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s linear;
+    background-color: #A8DADC;
+    padding: 10px;
+    max-width: 250px;
+    max-height: 430px;
+    text-align: left;
+    margin: 0 auto; }
+    .tarjeta:hover {
+      background-color: #E63946;
+      border-color: #E63946; 
+      }
+    .tarjeta img {
+      max-width: calc(100%);
+      margin: 0 auto;
+      display: block;
+      cursor: pointer; }
+    .tarjeta .index {
+      background-color: rgba(0, 0, 0, 0.2);
+      color: #fff;
+      line-height: 20px;
+      font-size: 14px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: block;
+      padding: 0 10px; }
+
+    .tarjeta h2 {
+      color: #187795;
+      font-family: 'Noto Sans TC', sans-serif;
+    }
+
+    .tarjeta p{
+      color: #187795;
+      font-family: 'Noto Sans TC', sans-serif;
+    }
+
+    .tarjeta .detalles {
+      position: relative; }
+      .tarjeta .icon {
+        max-width: calc(20%);
+        cursor: pointer;
+      }
