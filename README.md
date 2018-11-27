@@ -1,4 +1,4 @@
-#Portafolio
+# Portafolio
 
 Página web mostrando un _sneak peak_ de proyectos que he realizado con tecnologías web (JavaScript, Node, React, Ionic, etc.).
 
